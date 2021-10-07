@@ -1,0 +1,432 @@
+.dark-theme {
+    color: rgb(221, 221, 221);
+    background-color: #6b86af; /*#557a9b;*/
+}
+
+/*   Вехнее меню   */
+.dark-theme .top {
+    background-color: #234f75b6;
+}
+
+/*   Боковое меню   */
+.dark-theme #box {
+    background-color: #627faa;
+}
+
+
+.dark-theme #open:hover {
+    filter: drop-shadow(0px 0px 1px white);
+}
+
+.dark-theme #button {
+    background-image: 6;
+    background-image: url('../images/menudar.png');
+	background-size: 72px;
+	background-repeat: no-repeat;
+}
+
+.dark-theme .buttu {
+    display: none;
+	position: fixed;
+	border-radius: 20px;
+	background-color:  #234f7586;
+	bottom: -5%;
+	vertical-align: baseline;
+	width: 100%;
+	height: 100px;
+}
+
+.dark-theme .stat {
+    background-color: #5473a1;
+    box-shadow: 0px 0px 20px #234f75b6;
+    margin-bottom: 100px;
+}
+
+.dark-theme #open {
+    background-image: url('../images/setdar.png');
+	background-size: 72px;
+	background-repeat: no-repeat;
+}
+
+.dark-theme #open:hover {
+    filter: drop-shadow(0px 0px 1px white)
+}
+
+.dark-theme .nr {
+    background-image: url('../images/logindar.png');
+	background-size: 72px;
+	background-repeat: no-repeat;
+}
+.dark-theme .mainMenu ul {
+    color: #000;
+    background-color: rgb(255, 234, 184, 1);
+}
+
+.dark-theme .mainMenu ul li:hover {
+    background-color: #bec0bb;
+}
+
+.dark-theme .mainMenu li ul {
+    color: #000;
+    background-color: rgb(255, 234, 184, 1);
+}
+
+.dark-theme .mainMenu li ul li:hover {
+    background-color: #bec0bb 
+}
+
+.dark-theme .mainMenu {
+    box-shadow: 0px 0px 0px 8px #345a7db6;
+    border-radius: 1px;
+}
+
+.dark-theme .user {
+    color: rgb(230, 255, 255);
+}
+
+.dark-theme .text2 {
+    background-color: #b3b3b33b;
+    color: rgb(221, 221, 221);
+    font-size: 20px;
+}
+
+.dark-theme .MyButton:hover {
+    background-color: rgb(162, 162, 255);
+}
+ 
+.dark-theme .MyButton {
+    background-color: rgb(207, 207, 207);
+}
+
+/*полоса прокрутки для комментариев*/
+.dark-theme ::-webkit-scrollbar-track {
+    background-color:#adadad;
+}
+    
+.dark-theme ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color:#234f75b6;
+}
+       
+.dark-theme ::-webkit-scrollbar{
+    width: 11px;
+}
+        
+/*полоса прокрутки для самого окна*/
+.dark-theme::-webkit-scrollbar-track {
+    background-color:#adadad;
+}
+    
+.dark-theme::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 4px;
+    background-color:#386c99b6;
+}
+       
+.dark-theme::-webkit-scrollbar{
+    width: 12px;
+}
+
+.dark-theme .to {
+    filter: drop-shadow(0px 0px 3px 3px rgb(255, 255, 255));
+}
+
+.dark-theme .tooltip-button {
+    background-color: rgba(207, 207, 207, 0);
+    color: rgb(221, 221, 221);
+    border: 1px solid rgba(121, 121, 245, 0);
+}
+
+.dark-theme .tooltip-button:hover {
+    background-color: rgb(181, 196, 212, 0);
+}
+  
+.dark-theme .tooltip-text {
+    color:#cdcdcd;
+    background-color: #5c84a7;
+    border: 3px solid rgb(204, 204, 204);
+}
+  
+.dark-theme .close-button {
+    color: #cdcdcd;
+    background-color: #6290b9;
+    border: 3px solid rgb(204, 204, 204);
+}
+
+.dark-theme .close-button:hover {
+    color: #ffffff;
+}
+
+.dark-theme .settings {
+    background-color: #3a6992cc;
+    color: #fff;
+}
+
+.dark-theme .span:hover {
+    background-color: #3a699200;
+}
+
+.dark-theme .select {
+    background-color: #628eb4;
+    border: 1px solid #fff;
+    color: #cdcdcd;
+}
+
+.dark-theme .select:hover {
+    color: #fff;
+}
+
+.dark-theme .range::-webkit-slider-thumb {
+    background-color: #507fa8;
+}
+.dark-theme .ff {
+    background-color: #5e768a;
+    color: white;
+}
+
+.dark-theme .avt {
+    background-color: #728797; 
+    color: rgb(224, 224, 224);
+}
+
+.dark-theme .avt a {
+    color: rgb(224, 224, 224);
+}
+
+.dark-theme .avt a:hover {
+    color: rgb(152, 180, 223);
+}
+
+.dark-theme .avt:hover {
+    background-color: #7f8e99;
+}
+
+.dark-theme .body1 {
+    height: 100%;
+    /*background-color: rgba(126, 153, 202, 0.705);*/
+}
+
+.dark-theme .slovo {
+    color: #fff;
+}
+
+.dark-theme .slovo:hover {
+    color: #cdcdcd;
+}
+
+.dark-theme .exit {
+    color: #fff;
+}
+
+.dark-theme .exit:hover {
+    color: #cdcdcd;
+}
+
+/* стили для формы регистрации и авторизации */
+.dark-theme input[type="text"]:focus {
+	transition: 600ms;
+	border: 2px solid rgb(204, 209, 252);
+	box-shadow: 0px 0px 8px 1px rgb(204, 209, 252);
+}
+
+input[type="password"] {
+	border-radius: 5px;
+	width: 35%;
+	height: 34px;
+	font-size: 20px;
+	padding-left: 8px;
+	outline: none;
+}
+
+input[type="password"]:focus {
+	transition: 600ms;
+	border: 2px solid rgba(143,154,239,1.00);
+	box-shadow: 0px 0px 8px 1px rgba(143,154,239,1.00);
+}
+
+input[type="email"] {
+	border-radius: 5px;
+	width: 35%;
+	height: 34px;
+	font-size: 20px;
+	padding-left:8px;
+	outline: none;
+}
+
+.dark-theme .layer {
+    background-color: #4b6b88; /*557a9b*/
+}
+
+.dark-theme .messages {
+    background-color: #557a9b;
+}
+
+.dark-theme .testConteiner {
+    background-color: #57739c;
+}
+
+
+/*   Скролл   */
+.dark-theme ::selection {background: #8997e6;}
+.dark-theme ::-moz-selection {background: #8997e6;}
+.dark-theme ::-webkit-selection {background: #8997e6; color:#fff;}
+
+/*   Кнопка темы   */
+.dark-theme .theme-button{
+	background-image: url('../images/sun1.png');
+}
+
+/*   Меню   */
+.dark-theme .mainMenu {
+	background-color: rgba(255, 238, 199, 0.473);
+}
+
+.dark-theme .mainMenu li {
+    border: 2px solid #cdcdcdea;
+    border-left: 6px solid rgb(255, 234, 184, 0.9);
+    border-right: 6px solid rgb(255, 234, 184, 0.9);
+}
+
+.dark-theme .mainMenu li:hover {
+    border-left: 6px solid rgba(110, 79, 5, 0.363);
+    border-right: 6px solid rgba(110, 78, 5, 0.363);
+}
+
+/*   div   для права   */
+.dark-theme .podR {
+	background-color: #778da0b7;
+}
+
+/*   div   для лева   */
+.dark-theme .podL {
+	background-color: #778da0b7;
+}
+
+/*   Подпись картинки   */
+.dark-theme .tPod {
+	color:rgb(206, 206, 206);
+}
+
+/*   ЛОГО   */
+.dark-theme .picture2 {
+	box-shadow: #627faa inset 0px 0px 6px 6px;
+}
+
+/*   Для footer   */
+.dark-theme .fut {
+    box-shadow: 0px 0px 0px 3.5px white, 0px 0px 0px 7px blue;
+	background-color: #627faa;
+}
+
+.dark-theme .footer {
+    background-image: url("../images/backgroundSpace_01.2.png");
+    height: 600px;
+    background-repeat: repeat;
+    margin-top: -170px;
+    margin-bottom: -74px;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.dark-theme footer {
+	background-color: rgba(153, 189, 255, 0.479);
+    height: 75px;
+	border-radius: 20px 20px 0px 0px;
+    margin: 0px 13px -5px 13px;
+    overflow: hidden;
+}
+
+.dark-theme #footer-right {
+	color: rgb(236, 236, 236);
+}
+
+/*   На странице 5_2 для "слайдера"   */
+.dark-theme .s {
+    border-bottom: 3px dashed rgb(221, 221, 221);
+}
+
+/*   Кнопка выйти из теста   */
+.dark-theme .rere {
+    border: 2px solid white; 
+}
+
+.dark-theme .picDiv {
+    background-color:  #234f75b6;
+}
+
+.dark-theme .oglav {
+    background-color: #34658f;
+}
+
+.dark-theme .intoOglav {
+    background-color: #5185b3; 
+}
+
+.dark-theme .nuu {
+    color: rgb(161, 255, 232);
+}
+
+.dark-theme .logoi {
+	background-image: url('../images/main/logoMain.png');
+}
+
+.dark-theme .nme {
+    background-color:  rgba(204, 204, 204, 0.299);
+	color: #fff;
+}
+
+.dark-theme .lines::after, .dark-theme  .lines::before {
+	background: white;
+}
+.dark-theme .phph {
+	background: url('../images/main/razdel.svg')  no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/* навигация снизу */
+
+.dark-theme .nav li {	
+    background-color: #314b72;
+	border-left:  1px solid rgba(218, 218, 218, 0.801);
+	border-right:  1px solid rgb(218, 218, 218, 0.801);
+	border-bottom: 3px solid rgba(218, 218, 218, 0.658);
+}
+
+.dark-theme ul.nav a {	
+    border-bottom: 3px solid rgba(218, 218, 218, 0.658);
+	background-color: #314b72;
+	color: white; 	
+    font-size: 20px
+}
+
+.dark-theme ul.nav li:hover, .dark-theme ul.nav li a:hover  {
+	background-color: #405d8a !important;
+}
+
+     .dark-theme ul.nav li:hover > a  {
+        background-color: #405d8a;
+    } 
+
+.dark-theme .butNav {
+    filter: none;
+}
+
+.dark-theme .mainNavDiv {	
+    background-color: #3d5c88; 
+}
+
+.dark-theme .leftNavDiv {
+	background-color: #314b72 !important; 
+}
+
+.dark-theme .rightNavDiv {
+	background-color: #314b72; 
+}
+
+.dark-theme a.navText {
+    color: white;
+}
+

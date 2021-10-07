@@ -1,0 +1,486 @@
+<!-- InstanceBegin template="../Templates/teem.dwt" codeOutsideHTMLIsLocked="false" --><!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="../style/style.css">
+   <link rel="stylesheet" href="../style/theme.css">
+   <link rel="icon" href="../images/faveico.svg" type="image/x-icon">
+   <link rel="stylesheet" href="../style/photo.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   <!-- InstanceBeginEditable name="doctitle" -->
+   <link rel="stylesheet" href="../libs/slick/slick.css">
+   <link rel="stylesheet" href="../libs/slick/slick-theme.css">
+   <title>Проблемы</title>
+   <!-- InstanceEndEditable --> 
+   <!-- InstanceBeginEditable name="head" -->
+   <!-- InstanceEndEditable -->
+</head>
+<body id="bo">
+   <!--блок закрытия для регистрации/авторизации-->
+   <div id="closee"></div>
+   <!-- Кнопка прокрутки -->
+   <button type="button" class="up" style="background: none;"><img src="../images/up.png"></button>
+   <!-- Конец кнопки прокрутки -->
+   <!-- это верхнее меню -->
+   <div class="top" id="ttop">
+      <!--блок закрытия для настроек-->
+      <div id="closeee"></div>  
+      <div class="zs gloo" id="open"></div>
+	  <a href="../index.php" title="На главную"> <div class="logoi glooe" id="logoi"></div> </a>   
+      <div class="n gloo" id="button"></div>
+      <!--кнопки в верхнем меню
+         <img src="images/login.png" class="nr" id="loginn">
+         <img src="images/set2.png" class="zs" id="open">
+            <img src="images/menu.png" class="n" id="button"-->
+      <!--Блок настроек-->
+      <div id="settings" class="settings">
+         <div class="color-filters">
+            <span class="span">
+            <label>
+               Цвет текста:
+               <select class="filter select color-setting" name="font-color">
+                  <option class="select" value="inherit" selected>По умолчанию</option>
+                  <option class="select" value="black">Чёрный</option>
+                  <option class="select" value="white">Белый</option>
+                  <option class="select" value="ghostwhite">Светло-серый</option>
+                  <option class="select" value="pink">Розовый</option>
+                  <option class="select" value="darkred">Тёмно-красный</option>
+                  <option class="select" value="darkorange">Оранжевый</option>
+                  <option class="select" value="saddlebrown">Коричневый</option>
+                  <option class="select" value="gold">Золотой</option>
+                  <option class="select" value="greenyellow">Салатовый</option>
+                  <option class="select" value="forestgreen">Зелёный</option>
+                  <option class="select" value="aquamarine">Аквамарин</option>
+                  <option class="select" value="lightskyblue">Небесно-голубой</option>
+                  <option class="select" value="lightsteelblue">Серо-голубой</option>
+                  <option class="select" value="darkblue">Тёмно-синий</option>
+                  <option class="select" value="indigo">Индиго</option>
+                  <option class="select" value="mediumpurple">Фиолетовый</option>
+                  <option class="select"  value="purple">Пурпурный</option>
+               </select>
+         </div>
+         <table style="transition: 0.3s" class="tb">
+         <tr>
+         <td>
+         <label>Размер текста (<span class="pixels">25</span>)
+         </td>  
+         <td style="padding-top: 3px"> 
+         <span>
+         <button class="theme-button"></button>
+         </span>
+         </td>
+         </tr>
+         </table>
+         <input class="size-setting range" type="range" min="18" max="68" step="1" value="25">
+         </label>
+      </div>
+   </div>
+   <!-- конец верхнего меню -->
+   <!--Блок закрытия бокового меню-->
+   <div id="close"></div>
+   <!-- начало бокового меню-->
+   <div id="box">
+      <br>
+      <div class="picDiv" style="padding-bottom: 4px;">
+         <a href="../index.php">
+            <div class="picture">
+               <video autoplay muted loop id="myVideo" width="100%"  class="picc" title="На главную">
+                  <source src="../images/logo.mp4" type="video/mp4">
+               </video>
+               <div class="picture2"></div>
+            </div>
+         </a>
+      </div>
+      <ul class="mainMenu">
+         <a href="../index.php">
+            <li>Главная</li>
+         </a>
+         <!--li><a href="pages/page_2.html">Актуальность</a></li-->
+         <a href="page_2.html">
+            <li>Развитие</li>
+         </a>
+         <a href="page_3.html">
+            <li>Влияние космоса на ИКТ</li>
+         </a>
+         <li>
+            <a href="page_4.html">Основные направления</a>
+            <ul>
+               <a href="page_4_1.html">
+                  <li>ИКТ в исследованиях</li>
+               </a>
+               <a href="page_4_2.html">
+                  <li>Система жизнеобеспечения</li>
+               </a>
+               <a href="page_4_3.html">
+                  <li>Спутниковая связь</li>
+               </a>
+            </ul>
+         </li>
+         <li>
+            <a href="page_5.html">Космические аппараты</a>
+            <ul>
+               <a href="page_5_1.html">
+                  <li>Проблемы</li>
+               </a>
+               <a href="page_5_2.html">
+                  <li>Типы</li>
+               </a>
+               <a href="page_5_3.html">
+                  <li>Конструирование</li>
+               </a>
+            </ul>
+         </li>
+         <a href="page_6.html">
+            <li>Интересные открытия</li>
+         </a>
+         <a href="page_7.html">
+            <li>Проекты будущего</li>
+         </a>
+         <a href="test.html">
+            <li>Тестирование</li>
+         </a>
+      </ul>
+      <br>
+      <br>
+      <!--блок с кнопками поделиться-->
+      <div class="fut">
+         <a href="https://plus.google.com/share?url=URL"><img src="../images/googlePlus.png" class="to" alt="Поделиться в google plus" style="width: 20px"></a>
+         <a href="https://vk.com/share.php?url=https://vk.com/&title=Сайт 'Информационные технологии в космосе'&description=Сайт 'Информационные технологии в космосе'&image=https://www.multibille.fr/b/wp-content/uploads/2018/07/Robert_McCall_1974_Apollo-Soyuz.jpg&noparse=false"><img src="../images/vk.png" class="to" alt="Поделиться ВКонтакте"></a>
+         <a href="https://twitter.com/intent/tweet?text=Сайт 'Информационные технологии в космосе'E&url=URL&via=TWITTER-HANDLE"><img src="../images/twit.png" class="to" alt="Поделиться в twitter" style="width: 30px"></a>
+         <a href="https://www.facebook.com/sharer/sharer.php?u=URL"><img src="../images/facebook.png" class="to"s alt="Поделиться facebook"></a>
+         <a href="https://pinterest.com/pin/create/button/?url=YOUR-URL&description=Сайт 'Информационные технологии в космосе'&media=https://www.multibille.fr/b/wp-content/uploads/2018/07/Robert_McCall_1974_Apollo-Soyuz.jpg"><img src="../images/pint.png" class="to" alt="поделиться а Pinterest" style="width: 20px"></a>
+      </div>
+      <div class="buttu" style="z-index: 1 !important"></div>
+   </div>
+   <!-- Не трогать --> 
+   <!-- Не трогать-->
+   <!-- конец бокового меню-->
+   <div style="height: 130px"></div>
+   <div class="stat">
+      <!--Попап-->
+      <div class="tooltip">
+         <span class="tooltip-text"></span>
+         <button class="button close-button" type="button"><span>Закрыть</span></button>
+      </div>
+      <!--Конец попапа и начало текста сайта--><!--article для настрок текста-->
+      <article class="longread">
+         <div class="maintext">
+            <!-- InstanceBeginEditable name="EditRegion4" -->
+            <p>
+               <!--span class="mainletter">S</span-->
+               <!--Образец применения попапа-->
+               <script>
+                  var	qwer = function (qwri) {
+                  qwri.scrollIntoView({block: "start", inline: "center"}) - 1000;
+                  }
+               </script>
+            <div class="oglav">
+               <div style="width: 80%; float: left;">
+                  <ul>
+                     <li onclick="qwer(document.getElementById(1))">Ракетные двигатели</li>
+                     <li onclick="qwer(document.getElementById(2))">Космический мусор</li>
+                     <li onclick="qwer(document.getElementById(3))">Астронавигация</li>
+                     <li onclick="qwer(document.getElementById(4))">Космическая радиация</li>
+                     <li onclick="qwer(document.getElementById(5))">Пища и питье</li>
+                     <li onclick="qwer(document.getElementById(6))">Мышечная атрофия</li>
+                     <li onclick="qwer(document.getElementById(7))">Психика</li>
+                     <li onclick="qwer(document.getElementById(8))">Ресурсы</li>
+                     <li onclick="qwer(document.getElementById(9))">Разведка</li>
+                  </ul>
+               </div>
+               <div class="intoOglav"><span style="transform: rotate(90deg); transform-origin: left top 0; position: absolute; left: 38px; top: 50%; margin-top: -65px;">Оглавление</span>	</div>
+            </div>
+            <h1 style="font-size: 45px; text-align: center;">Проблемы современных космических аппаратов, и как следствие - проблемы освоения космоса</h1>
+            <h1 id="1" style="padding-top: 107px">Проблема: ракетные двигатели</h1>
+            <div class="podR rr" style=" min-width: 300px;width: 30%; margin: 10px;">
+               <img src="../images/page5_1/intoTheSpace.jpg" class="pro myImg" alt="Испытания первого ядерного ракетного двигателя в 1967 году. Сам он слева, на переднем плане часть защиты реактора.">
+               <div class="modal myModal">
+                  <span class="close" onclick="document.querySelector('.myModal').style.display='none'">&times;</span>
+                  <img class="modal-content img01">
+                  <div class="caption"></div>
+               </div>
+               <div class='tPod'>Испытания первого ядерного ракетного двигателя в 1967 году. </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp; Нет ничего проще полёта в безвоздушном пространстве: ведь при путешествиях в космическом вакууме на ракету не действует сила трения. Основные проблемы возникают при запуске. Чем выше масса объекта, тем большую силу нужно применить для его перемещения.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp; Химическое ракетное топливо идеально подходит для первоначального ускорения, но керосин сгорает за считанные минуты. Полученное импульсное ускорение позволит добраться до лун Юпитера за 5—7 лет! Но следует задуматься о создании принципиально новых ракетных двигателей. 
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Основная причина того, что не используются ядерные ракетные двигатели — это так называемый Договор о космосе, который запрещает использовать ядерное вооружение за пределами Земли. В итоге из-за него любые миссии с ядерным топливом на борту проходят тщательную проверку на безопасность, поэтому в космосе обычно можно встретить лишь зонды с РИТЭГами — радиоизотопными термоэлектрическими генераторами, использующими тепловую энергию, выделяющуюся при естественном распаде радиоактивных изотопов и преобразующими её в электроэнергию с помощью термоэлектрогенератора.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;А ведь ракеты с ядерным двигателем должны иметь на борту не просто «пассивный» радиоизотопный источник, а целый
+            «активный» ядерный реактор с куда большим количеством топлива. И до сих пор в космосе побывало лишь около десятка
+            кораблей с полноценными реакторами, обеспечивающими смешную выработку электричества около единиц киловатт, чего крайне
+            мало для создания полноценной ядерной двигательной установки. В США, например, лишь в 2019 году администрация Трампа
+            выпустила новую директиву, которая позволяет запускать в космос ракеты с мощными ядерными реакторами. Это и позволяет
+            теперь НАСА создавать такие ракеты — разумеется, в соответствии со всеми рекомендациями по безопасности.
+            <h1 id="2" style="padding-top: 107px">Проблема: космический мусор</h1>
+            <div class="podR rr" style="min-width: 300px;width: 30%; margin: 0px 10px 10px 10px; margin-top: 0px;">
+               <img src="../images/page5_1/Kosmotrash.jpg" class="pro myImg" alt="Космический мусор">
+               <div class="modal myModal">
+                  <span class="close" onclick="document.querySelector('.myModal').style.display='none'">&times;</span>
+                  <img class="modal-content img01">
+                  <div class="caption"></div>
+               </div>
+               <div class='tPod'>Космический мусор</div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp; <span style="font-style: italic; font-size: 30px;"> "Космическое минное поле"</span>
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;К сожалению, проблема космического мусора весьма актуальна. Сеть станций наблюдения за космическим пространством США (US Space Surveillance Network) одновременно отслеживает около 17 000 объектов размером с мяч, вращающихся на разных орбитах вокруг Земли со скоростью более 8 километров в секунду. Если учитывать различные обломки и объекты менее 10 сантиметров, эта цифра увеличивается до полумиллиона! Части пусковых адаптеров, крышки объективов, мельчайшие частицы отслоившейся краски могут нанести непоправимый вред жизненно важным системам корабля.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;И если от подобных обломков корабли защищены многослойными щитами Уиппла из металла и кевлара, спасти космический аппарат от столкновения с вышедшим из строя спутником не представляется возможным. А ведь на орбите Земли вращается около 4 000 подобных «зомби»! Безусловно, Центр управления полётами прокладывает наиболее безопасный маршрут, но отслеживание траекторий движения космического мусора — задача не из лёгких.
+            <h1 id="3" style="padding-top: 107px">Проблема: астронавигация</h1>
+            <div class="podR rr" style="min-width: 300px;width: 30%; margin: 10px;">
+               <img src="../images/page5_1/msx.jpg" class="pro myImg" alt="Сеть Космического Наблюдения Соединенных Штатов">
+               <div class="modal myModal">
+                  <span class="close" onclick="document.querySelector('.myModal').style.display='none'">&times;</span>
+                  <img class="modal-content img01">
+                  <div class="caption"></div>
+               </div>
+               <div class='tPod'>Сеть Космического Наблюдения Соединенных Штатов</div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-style: italic; font-size: 30px;">Почему в космосе нет GPS?</span> 
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Сеть дальней космической связи — это международная сеть радиотелескопов и средств связи, расположенная в Калифорнии, Австралии и Испании. На сегодняшний день она является единственным средством навигации в космическом пространстве. Любые запуски — от студенческих спутников, собранных на «коленке», до сложнейшей автоматической межпланетной станции NASA «Новые горизонты» (New Horizons), продирающейся сквозь пояс Койпера, — полностью зависят от корректной работы и ориентации этой сети. Сверхточные атомные часы на Земле отмеряют время, за которое сигнал проходит от наземной станции до зонда и обратно, а специальные навигационные системы учитывают эту разницу для вычисления точного положения космического аппарата.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Однако с увеличением количества миссий растёт и нагрузка на сеть дальней космической связи. Основная панель управления полётами всё чаще оказывается полностью загруженной. NASA предпринимает всё возможное, чтобы снизить нагрузку на центр управления и навигации. Прежде всего, нам необходимо оборудовать все космические аппараты атомными часами — это вдвое сократит время передачи сигнала с борта космического корабля на Землю и даст возможность производить вычисления с помощью одиночной передачи. Инженеры уверены: установка лазеров с повышенной пропускной способностью позволит обрабатывать большие пакеты данных, включая фотографии и видеосообщения.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Но чем дальше космический корабль удаляется от Земли, тем менее надёжным становится этот метод. Давно известно, что радиоволны распространяются со скоростью света, но передача сигнала в глубокий космос займёт долгие минуты и часы. Космонавты смогли бы ориентироваться по звёздам, подобно древним мореплавателям, но звёзды находятся слишком далеко и не дают представления о реальном местоположении космического корабля. 
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Джозеф Гуинн (Joseph Guinn), эксперт по навигации в глубоком космосе, предлагает разработать автономную систему навигации для будущих космических миссий. Подобная система будет собирать и обрабатывать изображения целей путешествия и близлежащих объектов, используя их взаимное расположение для триангуляции координат космического аппарата. При этом отпадает необходимость использования земных систем навигации.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;«На Земле эта проблема решается просто, — рассуждает Гуинн. — Устанавливаете GPS-приёмник в автомобиль — и готово!». Джозеф предлагает использовать подобную систему для позиционирования и навигации в глубоком космосе и называет её DPS (Deep Space Positioning System) — по аналогии с привычной земной системой GPS.
+            <h1 id="4" style="padding-top: 107px">Проблема: космическая радиация</h1>
+            <div class="podR rr" style=" min-width: 300px;width: 35%; margin: 10px;">
+               <img src="../images/page5_1/vanallen.png" class="pro myImg" alt="Околоземная радиация">
+               <div class="modal myModal">
+                  <span class="close" onclick="document.querySelector('.myModal').style.display='none'">&times;</span>
+                  <img class="modal-content img01">
+                  <div class="caption"></div>
+               </div>
+               <div class='tPod'>Околоземная радиация</div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;Наша родная планета заботливо укутана атмосферой и обладает собственным магнитным полем; вне этой колыбели нас поджидает смертельный танец субатомных частиц, пляшущих на околосветовых скоростях. Космическая радиация — смертельно опасная штука. Излучение может «наградить» нас катарактой, его связывают с болезнью Альцгеймера, оно также приводит к ухудшению работы мозга, в частности, памяти. Кроме того, считается, что генетические ошибки, появляющиеся из-за воздействия таких частиц при делении клеток, могут значительно увеличивать риски возникновения раковых опухолей.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;При столкновении субатомных частиц с атомами алюминия, составляющими обшивку космического аппарата, ядро последних распадается и происходит выброс сверхбыстрых частиц. Этот процесс называется «вторичная радиация». «Очевидно, что металлическая обшивка — не самое удачное решение», — рассуждает Насер Баргути (Nasser Barghouty) из Центра космических полётов имени Джорджа Маршалла, находящегося в ведении NASA.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Как ни странно, но нам помогут пластики. Они обладают рядом замечательных качеств: лёгкие и прочные, в них полно атомов водорода, которые не способствуют возникновению вторичной радиации ввиду малого размера ядра. В настоящее время NASA проводит испытания различных видов пластиков, созданных для защиты космических аппаратов и скафандров от радиации.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Есть и более футуристичный способ защиты: магниты. Учёные из Европейского проекта «Сверхпроводящий щит от космической радиации» (Space Radiation Superconducting Shield) трудятся над созданием сверхпроводящего материала из диборида магния для защиты космонавтов от ионизирующего излучения в дальних космических рейсах. Эффект сверхпроводимости возникает при весьма низких температурах (около −263 градусов Цельсия).	
+            <h1 id="5" style="padding-top: 107px">Проблема: пища и питьё</h1>
+            <div class="podR rr" style=" min-width: 300px;width: 35%; margin: 10px;">
+               <img src="../images/page5_1/onMKS.jpg" class="pro myImg" alt="Выращивание еды на МКС">
+               <div class="modal myModal">
+                  <span class="close" onclick="document.querySelector('.myModal').style.display='none'">&times;</span>
+                  <img class="modal-content img01">
+                  <div class="caption"></div>
+               </div>
+               <div class='tPod'>Выращивание еды на МКС</div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-style: italic; font-size: 30px;">К сожалению, на Марсе пока нет супермаркетов</span>
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp; В августе прошлого года обыкновенный салат-латук стал настоящим деликатесом. По крайней мере, для космонавтов Международной космической станции, которые полакомились несколькими листьями салата, впервые выращенными на борту исследовательской лаборатории. Однако снять полноценный урожай в условиях невесомости — задача не из лёгких. В космосе вода не сочится сквозь почву, а собирается в летающие повсюду пузыри. Инженерам пришлось разработать специальную систему керамических трубок, которые будут смачивать корни растений.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;«Ближайший аналог подобной системы — это статуэтка для выращивания чиа», — рассказывает ботаник Рэймонд Уилер (Raymond Wheeler) из Космического центра имени Кеннеди.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Другая проблема — свободное место. Пространство в современных космических аппаратах весьма ограничено. Многие овощи как будто созданы для тесных и узких пространств космической станции, но учёные работают над созданием генномодифицированного карликового сливового дерева, которое будет достигать всего 60 сантиметров в высоту. Разнообразить диету космонавтов белками, жирами и углеводами можно с помощью картошки и арахиса.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Однако без воды все усилия будут напрасны. Система переработки выделяемых организмом жидкостей в питьевую воду на Международной космической станции нуждается в периодическом ремонте и обслуживании. Экипажам межпланетных экспедиций вряд ли придётся рассчитывать на быструю доставку запасных частей. И тут нам опять не обойтись без помощи ГМО-технологий. Инженер Майкл Флинн (Michael Flynn) из научно-исследовательского центра имени Эймса в NASA ведёт работу над созданием фильтра очистки воды на основе генномодифицированных бактерий. Майкл любит сравнивать его с работой человеческого организма.
+            <br>
+            <br>
+            «Если отринуть всё лишнее, люди — это ходячие системы водоочистки с полезным ресурсом в 75—80 лет,
+            <br>
+            <br>
+            — шутит он.
+            <br>
+            <br>
+            — Бактериальный фильтр способен восполнять запасы воды подобно нашим внутренностям».
+            <h1 style="text-align: center; padding-top: 107px" id="6">Проблема: мышечная атрофия и потеря <br> костной массы</h1>
+            <div class="podL rr" style="min-width: 300px;width:30%; margin: 10px;">
+               <img src="../images/page5_1/sportOnMKS.jpg" class="pro myImg" alt="Занятия спортом на МКС">
+               <div class="modal myModal">
+                  <span class="close" onclick="document.querySelector('.myModal').style.display='none'">&times;</span>
+                  <img class="modal-content img01">
+                  <div class="caption"></div>
+               </div>
+               <div class='tPod'>Занятия спортом на МКС</div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbspСостояние невесомости пагубно влияет на организм человека. Отсутствие гравитации подавляет иммунные клетки, препятствует их нормальной жизнедеятельности, а эритроциты попросту разрывает на части. Космонавтам на Международной космической станции предписано заниматься физкультурой ежедневно два раза по часу, но они всё равно стремительно теряют костную массу. Искусственная гравитация могла бы решить все эти проблемы разом.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Бывший астронавт Лоренс Янг (Laurence Young) проводит испытания центрифуги для тренировки космонавтов в своей лаборатории Массачусетского технологического института. Испытуемые ложатся набок на платформу и начинают вращать ногами педали на стационарном колесе, а вся конструкция хитроумного изобретения постепенно раскручивается вокруг своей оси. Результирующая сила воздействует на ноги космонавтов, отдалённо напоминая гравитационное воздействие.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Тренажёр Янга слишком мал и его нельзя использовать более двух часов в день. Чтобы на борту звездолёта появилась постоянная гравитация, весь космический аппарат должен стать гигантской центрифугой. Корпус корабля можно выполнить в форме гантели с двумя камерами, соединёнными связующей рамой. Чем большее количество грузов мы сможем выводить на орбиту, тем меньше будут связаны руки у конструкторов и им не придётся изобретать колесо заново. 
+            <h1 id="7" style="padding-top: 107px">Проблема: психологическое здоровье</h1>
+            <div class="podR rr" style="width: 15%; min-width: 300px;width: 25%; margin: 10px;">
+               <img src="../images/page5_1/iceInSpace.jpeg" class="pro myImg" alt="Капсулы для криогенной заморозки">
+               <div class="modal myModal">
+                  <span class="close" onclick="document.querySelector('.myModal').style.display='none'">&times;</span>
+                  <img class="modal-content img01">
+                  <div class="caption"></div>
+               </div>
+               <div class='tPod'>Капсулы для криогенной заморозки</div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-style: italic; font-size: 30px;">Безумие и межпланетные путешествия: что общего?</span>
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Чтобы спасти жизнь больного во время инсульта или инфаркта, врачи значительно снижают температуру тела пациента для замедления метаболизма и уменьшения ущерба, вызванного нехваткой кислорода. Подобный трюк должен сработать и в космосе. Ведь для космического безумия нужно совсем немного: возьмите межпланетное путешествие длиною в год (по крайней мере), добавьте проживание в стеснённых условиях космического корабля, плохую еду и отсутствие личного пространства.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Джон Брэдфорд (John Bradford) уверен: нам стоит хорошенько об этом поразмыслить. Будучи президентом инженерно-технической фирмы SpaceWorks Enterprises, Inc. (SEI) и соавтором отчёта NASA по длительным межпланетным экспедициям, Брэдфорд считает, что криогенная заморозка экипажа позволит убить сразу двух космических зайцев: она даст возможность значительно сэкономить запасы пищи, воды и воздуха на борту, а заодно поможет экипажу звездолёта сохранить холодный ум и здравый смысл.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;«Если мы хотим носить гордое звание межпланетного вида, нам срочно следует заняться созданием технологии стазиса», — размышляет учёный.
+            <h1 class="h-right" id="8" style="padding-top: 107px">Пролема: ресурсы</h1>
+            <div class="podL rr" style="min-width: 300px; width: 35%; margin: 10px;">
+               <img src="../images/page5_1/cygnus.jpg" class="pro myImg" alt="Грузовой корабль Cygnus">
+               <div class="modal myModal">
+                  <span class="close" onclick="document.querySelector('.myModal').style.display='none'">&times;</span>
+                  <img class="modal-content img01">
+                  <div class="caption"></div>
+               </div>
+               <div class='tPod'>Грузовой корабль Cygnus</div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-style: italic; font-size: 30px;">Если гора алюминия не идёт к космонавту, он добудет её на месте</span>
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Когда первые космические караваны отправятся в долгое путешествие к звёздам, они будут загружены припасами под завязку. Но невозможно взять с собой всё. Конечно, у нас будет возможность снабдить поселенцев семенами, генераторами кислорода, станками и оборудованием для создания инфраструктуры. Но будущим колонизаторам предстоит самим собирать урожай и производить материальные ценности.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;К счастью, космос сможет обеспечить их всем необходимым.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;«Любая планета — это периодическая система химических элементов в миниатюре, — объясняет планетолог Ян Кроуфорд (Ian Crawford) из Биркбека (Лондонский университет). — Разница лишь в концентрации этих веществ».
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;На Луне полно алюминия. На Марсе обнаружены огромные запасы диоксида кремния и оксида железа. При наличии соответствующих технологий, пионеры космоса смогут добывать углерод, платиновую руду и воду на близлежащих астероидах. В том случае, если бластеры и бурильное оборудование окажутся слишком тяжёлыми, чтобы взять их с собой на борт, первопроходцам придётся научиться извлекать эти богатства с помощью других технологий: выплавки, микробов, способных поедать руду, или магнитов. NASA всерьёз заинтересовалось технологией трёхмерной печати, которая позволяет распечатывать целые здания и избавит будущих колонистов от необходимости везти с собой кучу строительного оборудования. Но в конечном итоге судьбу будущего поселения будет определять выбор места посадки и ресурсы небесного тела. Тёмная сторона Луны всегда привлекала человечество.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;«Миллионы лет обратная сторона нашего спутника подвергалась непрерывной астероидной бомбардировке», — рассказывает инженер программы «Спейс Шаттл», Анита Гейл (Anita Gale). — Может статься, что там полно новых полезных ископаемых и сырья». Но прежде чем человечество отправится в долгое путешествие к экзопланете у звезды Kepler-438 в созвездии Лира, ему предстоит многому научиться.
+            <h1 id="9" style="padding-top: 107px">Проблема: разведка</h1>
+            <div class="podR rr" style="min-width: 300px; width: 30%; margin: 10px;">
+               <img src="../images/page5_1/botForSpace.jpg" class="pro myImg" alt="Робот для проведения космических работ">
+               <div class="modal myModal">
+                  <span class="close" onclick="document.querySelector('.myModal').style.display='none'">&times;</span>
+                  <img class="modal-content img01">
+                  <div class="caption"></div>
+               </div>
+               <div class='tPod'>Робот для проведения космических работ</div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;Собаки помогли нам колонизировать Землю и у них есть все шансы прижиться на Марсе. Но для полномасштабной межпланетной экспансии нам нужен новый лучший друг человека — робот!
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Колонизация планеты потребует нечеловеческих усилий: роботы же смогут вкалывать без устали сутки напролёт, выполнять тяжёлую работу. По крайней мере, пока и в теории. Современные человекоподобные роботы слишком громоздки, они едва могут самостоятельно передвигаться по Земле. Логично предположить, что роботам будущего нужно максимально отличаться от нас. Космическим ковбоям больше подойдёт лёгкий управляемый бот с клешнями в форме экскаваторного ковша.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp; Робот-экскаватор Прототип машины NASA, предназначенной для копания льда на Марсе. Конечности робота вращаются в различных направлениях, что помогает избавиться от опрокидывания в ходе работы.<br>
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Что касается тонкой ручной работы, здесь людям пока нет равных. Проворные человеческие пальцы — лучший инструмент для подобных видов деятельности. Безусловно, многое зависит и от экипировки. Современные скафандры предназначены для условий невесомости и не подходят для космического туризма на экзопланетах. NASA разработало опытный образец скафандра Z-2, который обладает гибкими сочленениями и шлемом с круговым обзором. Данный прототип предназначен для ремонтных работ любой сложности, в нём вполне возможно починить обрыв самого тонкого провода.
+            <br>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-style: italic; font-size: 30px;">После тяжёлого трудового дня нет ничего лучше, чем вытянуться в автоматическом вездеходе и отправиться домой, под уютный купол. </span>
+            <br>
+            <br>
+            <br>
+            <br>
+            </p>
+            <!-- InstanceEndEditable -->
+         </div>
+      </article> 
+	   <div class="mainNavDiv"><!--Главный контейнер-->
+	     <!-- InstanceBeginEditable name="EditRegion6" -->
+	     <div class="leftNavDiv">
+	       <!--Левый контейнер-->
+	       <a href="../pages/page_5.html" class="navBut"><img src="../images/main/navBack.png" alt="">
+	         <!--кнопка назад-->
+           </a><a href="../pages/page_5.html" class="navText">
+	           <div> Перейти на предыдущую <br>
+	             страницу <br>
+	             <br>
+	             <span>Космические аппараты</span></div>
+	           </a>
+	       <!--текст-->
+	       <a href="../pages/page_5.html" class="biB">
+	         <div style="background-image: url('../images/page_5/depositphotos.jpg');"></div>
+           </a>
+	       <!--картинка-->
+         </div>
+	     <!--конец левого контейнера-->
+         <div style="width: 20%; height: 100%; text-align: center;">
+           <button class="butNav"></button>
+         </div>
+         <div class="rightNavDiv">
+           <!--правый контейнер-->
+           <a href="../pages/page_5_2.html" class="biN">
+             <div style="background-image: url('../images/page5_2/4.png')"></div>
+           </a>
+           <!--картинка-->
+           <a href="../pages/page_5_2.html" class="navText">
+             <div>Перейти на следущую <br>
+               страницу <br>
+               <br>
+               <span>Типы спутников</span></div>
+           </a>
+           <!--текст-->
+           <a href="../pages/page_5_2.html" class="navBut"><img src="../images/main/navNext.png"></a>
+           <!--кнопка вперед-->
+         </div>
+         <!--конец правого контейнера-->
+       <!-- InstanceEndEditable --></div><!---->
+      <ul class="nav">
+            <a href="../index.php"><li style="border-left: 0px;">Главная</li></a>
+            <a href="page_2.html"><li>Развитие</li></a>
+            <a href="page_3.html"><li>Влияние</li></a>
+            <li><a href="page_4.html">Направления </a>
+               <ul>
+                  <a href="page_4_1.html"><li style="border-top:3px solid rgba(218, 218, 218, 0.658);">ИКТ в исследованиях</li></a>
+                  <a href="page_4_2.html"><li>Система жизнеобеспечения</li></a>
+                  <a href="page_4_3.html"><li>Спутниковая связь</li></a>
+               </ul>
+            </li>
+            <li><a href="page_5.html">Спутники</a>
+               <ul>
+                  <a href="page_5_1.html"><li style="border-top:3px solid rgba(218, 218, 218, 0.658);">Проблемы</li></a>
+                  <a href="page_5_2.html"><li>Типы</li></a>
+                  <a href="page_5_3.html"><li>Конструирование</li></a>
+               </ul>
+            </li>
+         
+            <a href="page_6.html"><li>Открытия</li></a>
+            <a href="page_7.html"><li>Проекты</li></a>
+            <a href="test.html"><li style='border-right: none'>Тест</li></a>
+      </ul>
+   </div> 
+   <!-- InstanceBeginEditable name="EditRegion5" --><!--ЧТО-ТО ЕЩЁ--><!-- InstanceEndEditable --> <br><br>
+   <script type="text/javascript" src="../js/script.js"></script>
+   <script type="text/javascript" src="../js/photo.js"></script>
+   <!-- InstanceBeginEditable name="EditRegion3" -->
+   <!-- InstanceEndEditable -->
+   <div class="footer"></div>
+   <footer>
+      <a href="http://na-lenskoy.ru/nauchno-tekhnicheskij-otdel/ot-stranichki-k-web-sajtu" target="_blank">
+         <div id="footer-left"></div>
+      </a>
+      <div id="footer-right">
+         <p>&copy; 2020 г. Автор сайта Карпенко Дмитрий.<br> Руководитель проекта: Петриченко В.А.</p>
+      </div>
+   </footer>
+</body>
+<!-- InstanceEnd --></html>
